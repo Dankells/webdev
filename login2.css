@@ -1,0 +1,52 @@
+@media all{}
+@media (max-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ 
+html{
+    background-image: url('images/tree.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.input{
+    position: relative;
+    top: 18em;
+    left: 13em;
+    height: 60em;
+    width: 45em;
+}
+.password{
+    position: fixed;
+    left: 19em;
+    top: 32.3em;
+}
+.button{
+    position: fixed;
+    left: 21em;
+    top: 43em;
+}
+.text{
+    position: fixed;
+    top: 38.5em;
+    left: 19em;
+}
+.signup{
+    position: fixed;
+    top: 39.3em;
+    left: 39em;
+}
+}
+@media (max-width:481px)  { /* portrait e-readers, smaller tablets @ 600 or @ 640 wide. */}
+@media (max-width:930px){}
+@media (min-width: 600px){
+
+}
+@media (min-width: 800px){
+
+}
+@media (min-width:931px)  { /* portrait tablets, landscape 800x480 or 854x480 phones */}
+@media (max-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+@media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+
+@media (max-width:1281px) { /* hi-res laptops and desktops */ }
