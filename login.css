@@ -1,0 +1,106 @@
+html{
+    background-image: url('images/dock.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+a:link{
+    text-decoration: none;
+}
+img{
+max-width: 3.5em;
+position: fixed;
+top: 19px;
+left: 40px;
+}
+.header{
+background-color: aqua;
+font-family: arial, sans-serif;
+font-size: 3rem;
+font-weight: bold;
+padding: .35em 0 .35em 2.3em;
+color: orange;
+text-shadow: 2px 2px 5px black;
+position: fixed;
+top: -50px;
+left: 0;
+right: 0;
+z-index: -1;
+}
+.dash{
+position: fixed;
+left: 29em;
+top: .3em;
+font-size: 3rem;
+display: block
+}
+.dashe{
+font-size: 3rem;
+display: block;
+position: fixed;
+top: .47em;
+left: 29em;
+}
+.input{
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    top: 5em;
+    left: 27em;
+    height: 40em;
+    width: 35em;
+ }
+input{
+    width: 35em;
+    height: 4em;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    position: relative;
+    top: 4em;
+    text-transform: capitalize;
+}
+input:focus{
+    font-weight: bold;
+    outline: none;
+    /*background-color: black;
+    color: white;*/
+}
+.password{
+        position: fixed;
+        left: 36em;
+        top: 32.3em;
+}
+.reset{
+        position: relative;
+        top: 10em;
+        left: 14em;
+        width: 4.4em;
+        height: 2em;
+}
+.button{
+    font-weight: bold;
+    font-size: .8rem;
+    position: fixed;
+    top: 43em;
+    left: 39em;
+}
+.sign{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+        font-size: 2.8rem; 
+        position: relative; 
+        top: 1em; 
+        left: -3em;
+}
+.text{
+        position: fixed;
+        left: 33em;
+        top: 38em;
+}
+.signup{
+        position: fixed;
+        left: 52em;
+        top: 39.3em;
+}

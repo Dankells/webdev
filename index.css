@@ -1,0 +1,260 @@
+/*html{
+    background-image: url('images/.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%
+}*/
+body * + * {
+    margin-top: 1.5em;
+}
+.head-image{
+    max-width: 3.5em;
+    position: fixed;
+    top: 19px;
+    left: 40px;
+    z-index: 2;
+}
+.header{
+    background-color: white;
+    font-family: arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: .35em 0 .35em 2.3em;
+    color: orange;
+    text-shadow: 2px 2px 5px black;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 2px 2px 10px black;
+    margin-top: 1em;
+}
+.help{
+    position: fixed;
+    right: 5em;
+    top: .8em;
+    z-index: 1;  
+}
+.help:hover{
+    background-color: aqua;
+    padding: .3em
+}
+.login{
+    position: fixed;
+    top: .8em;
+    right: 9em;
+    z-index: 1;
+}
+.login:hover{
+    background-color: aqua;
+    padding: .3em;
+}
+.dash{
+    position: fixed;
+    left: 28.5em;
+    top: .3em;
+    font-size: 3rem;
+    display: block;
+    z-index: 1;
+    margin-top: 0;
+}
+.dash:hover{
+    color: red;
+}
+.dashe{
+    font-size: 3rem;
+    display: block;
+    position: fixed;
+    top: .47em;
+    left: 28.5em;
+    z-index: 1;
+    margin-top: 0;
+}
+.dashe:hover{
+    color: red;
+}
+body{
+    overflow: visible;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link{
+    text-decoration: none;
+}
+.window{
+    min-width: 100%;
+    max-height: 40em;
+    position: relative;
+    top: 4.5em;
+    object-fit: contain;
+    opacity: 1;
+    background-color: whitesmoke;
+    margin: 1em 0 -32.9em 0;
+    z-index: -1;
+}
+.carmia{
+    font-family: arial, sans-serif;
+    font-size: 8rem;
+    font-weight: bold;
+    padding: .35em 0 .35em 2.3em;
+    color: orange;
+    text-shadow: 5px 5px 5px black;
+    position: relative;
+    top: -1em;
+    text-align: center;
+    left: -.9em;
+}
+.text-in-head{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    width: 20em;
+    text-shadow: 5px 5px 2px black;
+    stroke: black;
+    position: relative;
+    top: -7em;
+    left: 8em;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-title{
+    position: relative;
+    top: 7em;
+}
+strong{
+    color: black;
+}
+marquee{
+    background-color: whitesmoke;
+    padding: 1em 0 1em 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    /*position: relative;
+    top: 7em;*/
+    z-index: -9;
+    margin: -120em 0 0 0; 
+    color: cornflowerblue;
+    margin-bottom: -2.8em;
+}
+.body{
+    background-color: aqua;
+    padding: 1.1em 1em 1.1em .1em;
+    position: sticky;
+    top: 2em;
+    margin-left: 82.3em;
+    width: 5em;
+    height: 15em;
+    position: fixed;
+    top: 4em;
+}
+.body a{
+    margin: 0 1em 0 1em;
+    color: rgb(17, 14, 14);
+    padding: .8em 2em .8em .5em;
+    font-weight: bold;
+    display: block;
+
+}
+.body a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.carmax{
+    margin-top: 3em;
+}
+.carmax img{
+    max-width: 38.0em;
+    display: inline;
+    max-width: 42em;
+    height: 30em;
+    object-fit: cover;
+    margin-left: 1.3em;
+    margin-bottom: 2em;
+}
+.carmax p{
+    font-weight: bold;
+    font-size: 1.9em;
+    display: inline;
+    margin-left: 4em;
+    margin-right: 3.5em;
+    position: relative;
+    top: -4em;
+    /*background-color: black;*/
+    color: orange;
+    padding: .1em;
+    text-shadow: 2px 2px .1px black;
+}
+.carmax-text{
+    margin-right: -5em;
+}
+.top-deal{
+    margin-bottom: 3em;
+    margin-top: -5em;
+}
+#top-deals{
+    font-weight: bold;
+    font-size: 1.6em;
+    background-color: orange;
+    max-width: 6em;
+    padding: .2em .5em .2em .9em;
+    position: relative;
+    left: -1em;
+    top: 4em;
+}
+.top-deal img{
+    position: relative;
+    top: 2em;
+    display: block;
+    margin-left: 20em;
+    width: 50em;
+    height: 30em;
+    object-fit: cover;
+    border: 5px solid black;
+    margin-bottom: 2em;
+}
+.top-deal-message{
+    display: inline;
+    margin-right: 3em;
+    position: relative;
+    top: .9em;
+    left: 29em;
+}
+/*.hot-deal{
+    background-color: aqua;
+}*/
+#hot-deals{
+    font-weight: bold;
+    font-size: 1.6em;
+    background-color: orange;
+    max-width: 6em;
+    padding: .2em .5em .2em .9em;
+    position: relative;
+    left: -1em;
+    top: 4em;
+}
+.hot-deal img{
+    position: relative;
+    top: 5em;
+    display: block;
+    margin-left: 20em;
+    width: 50em;
+    height: 30em;
+    object-fit: cover;
+    border: 5px solid black;
+    margin-bottom: 3em;
+}
+.hot-deal-message{
+    display: inline;
+    margin-right: 3em;
+    position: relative;
+    top: 4em;
+    left: 29em;
+}
+.arrowhead img{
+    max-width: 3em;
+    float: right;
+    margin-right: 3em;
+}
